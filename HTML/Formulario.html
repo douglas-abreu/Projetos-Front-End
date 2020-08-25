@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <form>
+        <h1>Dados Pessoais</h1><br>
+        <table border="1px">
+            <th align="left">
+                <ul>
+                    <li><label for="nome">Nome completo:</label></li>
+                </ul>
+            </th>
+            <th align="left">
+                <input type="text" id="nome" size="40">
+            </th>
+           <tr>
+               <th align="left">
+                    <ul>
+                       <li><label for="email">E-mail:</label></li>
+                    </ul>
+               </th>
+               <th align="left">
+                    <input type="text" id="email" size="30">
+               </th>
+           </tr>
+           <tr>
+               <th align="left">
+                   <ul>
+                       <li><label for="nascimento">Data de Nascimento:</label></li>
+                   </ul>
+               </th>
+               <th align="left">
+                   <input type="date" id="nascimento"><br>
+                   <input type="checkbox" id="nascimento">
+                   <label for="naomandar">Não exibir idade ao enviar o currículo às empresas.</label>
+               </th>
+            </tr>
+            <tr>
+               <th align="left">
+                   <ul>
+                       <li>Sexo:</li>
+                   </ul>
+               </th>
+               <th align="left">
+                   <label for="masculino">Masculino</label>
+                   <input type="radio" id="masculino">
+                   <label for="feminino">Feminino</label>
+                   <input type="radio" id="feminino">
+               </th>
+            <tr>
+                <th align="left">
+                    <ul>
+                        <li><label for="estado">Estado Civil:</label></li>
+                    </ul>
+                </th>
+                <th align="left">
+                    <select name="estadoci" id="estado">
+                        <option label="vaz" value="vazi" selected="selected"></option>
+                        <option label="solteiro" value="sol">Solteiro(a)</option>
+                        <option label="casado" value="casa">Casado(a)</option>
+                        <option label="unisao" value="uni">União estável</option>
+                        <option label="divorci" value="divor">Divorciado(a)</option>
+                        <option label="viuvo" value="viuv">Viúvo(a)</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th align="left">
+                    <ul>
+                        <li><label for="homepage">Homepage Pessoal:</label></li>
+                    </ul>
+                </th>
+                <th align="left">
+                    <input type="url" id="homepage" value="http://" size="30">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <ul>
+                        <li>Está empregado atualmente?</li>
+                    </ul>
+                </th>
+                <th align="left">
+                    <label for="simtrab">Sim</label>
+                    <input type="radio" id="simtrab"><br>
+                    <label for="naotrag">Não</label>
+                    <input type="radio" id="naotrab">
+                    <p>Essa informação não será exibida em seu currículo.</p>
+                </th>
+            </tr>
+        </table>
+        <br>
+        <table border="1px">
+            <th align="left">
+                <h3>Área profissional desejada</h3>
+                <p>É necessário a escolha de pelo menos uma área profissional</p>
+            </th>
+            <th align="left">
+                <h3>Experiência profissional</h3>
+                <p>Recomendamos que você faça um resumo de sua experiência, conhecimentos e habilidades mais relevantes para o cargo pretendido.</p>
+            </th>
+            <tr>
+                <th align="left">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="adm">
+                            <label for="adm">Administação</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="edu">
+                            <label for="edu">Educação</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="info">
+                            <label for="info">Informática</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="hotel">
+                            <label for="hotel">Hotelaria e Turismo</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="saude">
+                            <label for="saude">Saúde</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="agri">
+                            <label for="agri">Agricultura, Pecuária e Veterinária</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="arte">
+                            <label for="arte">Artes, Arquitetura e Design</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="comuni">
+                            <label for="comuni">Comunicação/Marketing</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="enge">
+                            <label for="enge">Engenharia</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="juri">
+                            <label for="juri">Jurídico</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="tele">
+                            <label for="tele">Telemarketing</label>
+                        </li>
+                    </ul>
+                </th>
+                <th align="left">
+                    <ul>
+                        <li><b>Resumo do currículo:</b></li>
+                    </ul>
+                    <textarea cols="80" rows="10"></textarea>
+                    <p>Escreva no máximo 1000 caracteres.</p>
+                </th>
+            </tr>
+        </table>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>    
+</body>
+</html>
