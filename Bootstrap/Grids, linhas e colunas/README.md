@@ -1,3 +1,3 @@
 ## Preview da prática
 
-![prática grids](/preview.PNG)
+![prática grids](preview.PNG)
