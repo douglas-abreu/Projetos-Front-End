@@ -1,3 +1,3 @@
 ## Preview da prática
 
-![prática JQuery](preview.GIF)
+![prática JQuery](img/preview.GIF)
