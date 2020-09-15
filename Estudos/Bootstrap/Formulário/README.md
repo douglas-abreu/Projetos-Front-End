@@ -1,3 +1,3 @@
 ## Preview da prática
 
-![prática formulario](img/preview.png)
+![prática formulario](img/preview.PNG)
